@@ -1,0 +1,29 @@
+.cuadro-login {
+    background: rgba(255, 255, 255, 0.7294117647058823);
+    border-radius: 20px;
+    padding: 40px;
+    border-color: white;
+    box-shadow: 0px 5px 20px black;
+}
+
+.icono-menu {
+    margin: -10px;
+    margin-right: 5px;
+}
+
+.icono-logout {
+    margin: 3px;
+}
+
+.botones-menu {
+    margin: 20px;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}

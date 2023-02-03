@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>validarSesion</servlet-name>
+        <servlet-class>servlets.validarSesion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>importarAlumnos</servlet-name>
+        <servlet-class>servlets.importarAlumnos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registrarUsuario</servlet-name>
+        <servlet-class>servlets.registrarUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControlServlet</servlet-name>
+        <servlet-class>servlets.ControlServlet</servlet-class>
+    </servlet>
+    <servlet>
+
+        <servlet-name>CrearMaterias</servlet-name>
+        <servlet-class>servlets.CrearMaterias</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ObtenerMaterias</servlet-name>
+        <servlet-class>servlets.ObtenerMaterias</servlet-class>
+
+    </servlet>
+    <servlet>
+        <servlet-name>administrarPE</servlet-name>
+        <servlet-class>servlets.administrarPE</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validarSesion</servlet-name>
+        <url-pattern>/validarSesion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>importarAlumnos</servlet-name>
+        <url-pattern>/importarAlumnos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registrarUsuario</servlet-name>
+        <url-pattern>/registrarUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControlServlet</servlet-name>
+        <url-pattern>/ControlServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CrearMaterias</servlet-name>
+        <url-pattern>/CrearMaterias</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ObtenerMaterias</servlet-name>
+        <url-pattern>/ObtenerMaterias</url-pattern>
+
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>administrarPE</servlet-name>
+        <url-pattern>/administrarPE</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>inicioSesion.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
